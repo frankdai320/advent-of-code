@@ -4,7 +4,8 @@ import os
 import sys
 
 COMMANDS= [
-'awk -f day1-1.awk day1-input1'
+'awk -f day1-1.awk day1-input1',
+'tclsh day1-2.tcl'
 ]
 
 if len(sys.argv) != 3:
